@@ -302,6 +302,9 @@ in {
           "nginx"
           (if (config.services.mempool.electrumServer == "electrs") then "electrs" else "fulcrum")
         ];
+      lndhub-go = {
+        id = 32;
+        connections = [ "lnd" ];
       };
     };
 
@@ -358,8 +361,12 @@ in {
 
     services.clightning-rest.address = netns.clightning-rest.address;
 
+<<<<<<< HEAD
     services.mempool.address = netns.mempool.address;
     services.mempool.frontend.address = netns.nginx.address;
+=======
+    services.lndhub-go.address = netns.lndhub-go.address;
+>>>>>>> lndhub-go
   }
   ]);
 }

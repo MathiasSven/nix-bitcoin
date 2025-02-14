@@ -82,6 +82,7 @@ NixOS modules ([src](modules/modules.nix))
     * [Lightning Loop](https://github.com/lightninglabs/loop)
     * [Lightning Pool](https://github.com/lightninglabs/pool)
     * [charge-lnd](https://github.com/accumulator/charge-lnd): policy-based channel fee manager
+    * [LndHub.go](https://github.com/getAlby/lndhub.go): accounting wrapper for lnd
   * [lndconnect](https://github.com/LN-Zap/lndconnect): connect your wallet to lnd or
     clightning [via WireGuard](./docs/services.md#use-zeus-mobile-lightning-wallet-via-wireguard) or
     [Tor](./docs/services.md#use-zeus-mobile-lightning-wallet-via-tor)

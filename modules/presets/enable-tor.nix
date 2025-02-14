@@ -40,6 +40,7 @@ in {
     joinmarket = defaultEnforceTor;
     joinmarket-ob-watcher = defaultEnforceTor;
     clightning-rest = defaultEnforceTor;
+    lndhub-go = defaultEnforceTor;
   };
 
   # Add onion services for incoming connections
@@ -50,5 +51,6 @@ in {
     fulcrum.enable = defaultTrue;
     joinmarket-ob-watcher.enable = defaultTrue;
     rtl.enable = defaultTrue;
+    lndhub-go.enable = defaultTrue;
   };
 }

@@ -15,6 +15,7 @@
     ./clightning-rest.nix
     ./clightning-replication.nix
     ./lnd.nix
+    ./lndhub-go.nix
     ./lightning-loop.nix
     ./lightning-pool.nix
     ./charge-lnd.nix
